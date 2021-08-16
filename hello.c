@@ -1,9 +1,9 @@
 #include<stdio.h>
 
-int main(int ar,char **arg)
+int main(int argc,char **argv)
 {
 printf("hellow word\n");
-printf("hello\n %d\n %s\n",ar,arg[1]);
+printf(" %d\n %s\n",argc,argv[1]);
 return 0;
 
 }
